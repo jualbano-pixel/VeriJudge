@@ -1,0 +1,69 @@
+official_gazette:
+  domains:
+  - officialgazette.gov.ph
+  resolves: laws, EOs, proclamations, appointments
+  class_expected: '`primary_record`'
+  limitations: upload gaps and lag
+lawphil:
+  domains:
+  - lawphil.net
+  resolves: RA/EO text
+  class_expected: '`primary_record` (mirror)'
+  limitations: unofficial mirror; text only
+psa:
+  domains:
+  - psa.gov.ph
+  - openstat.psa.gov.ph
+  resolves: census, CPI/inflation, GDP, labor
+  class_expected: '`primary_record` (releases, tables)'
+  limitations: tables reached via links from press releases; revisions
+bsp:
+  domains:
+  - bsp.gov.ph
+  resolves: policy rate, FX, reserves
+  class_expected: '`primary_record` / own-act `official_statement`'
+  limitations: PDFs
+comelec:
+  domains:
+  - comelec.gov.ph
+  resolves: proclaimed results, candidates
+  class_expected: '`primary_record`'
+  limitations: weak site search; PDFs
+pse_edge:
+  domains:
+  - edge.pse.com.ph
+  resolves: listed-company disclosures
+  class_expected: '`primary_record`'
+  limitations: JS-heavy; fetch may fail — fall back to company IR page via open web
+sc_elibrary:
+  domains:
+  - elibrary.judiciary.gov.ph
+  resolves: decisions, G.R. numbers
+  class_expected: '`primary_record`'
+  limitations: indexing lag
+pna:
+  domains:
+  - pna.gov.ph
+  resolves: state wire reporting
+  class_expected: '`wire`'
+  limitations: not primary
+agencies:
+  domains:
+  - doh.gov.ph
+  - dict.gov.ph
+  - ntc.gov.ph
+  - philhealth.gov.ph
+  - ndrrmc.gov.ph
+  - dof.gov.ph
+  resolves: official statements, sitreps
+  class_expected: '`official_statement` (own-act or third-party), `primary_record`
+    for tables'
+  limitations: statements ≠ truth
+factcheck:
+  domains:
+  - verafiles.org
+  - tsek.ph
+  - rappler.com/newsbreak/fact-check
+  resolves: prior fact-checks
+  class_expected: '`fact_check`'
+  limitations: never licenses; links are capture candidates

@@ -1,0 +1,21 @@
+{
+  "operation": "fetch",
+  "request": {
+    "url": "https://psa.gov.ph/system/files/psd/Press%2520Release%2520on%2520CPI%2520for%2520All%2520Income%2520Households%2520for%2520January%25202023_y3th4.pdf"
+  },
+  "response": {
+    "url": "https://psa.gov.ph/system/files/psd/Press%2520Release%2520on%2520CPI%2520for%2520All%2520Income%2520Households%2520for%2520January%25202023_y3th4.pdf",
+    "final_url": "https://psa.gov.ph/system/files/psd/Press%2520Release%2520on%2520CPI%2520for%2520All%2520Income%2520Households%2520for%2520January%25202023_y3th4.pdf",
+    "http_status": null,
+    "fetch_status": "failed",
+    "failure_reason": "network_error",
+    "content_type": null,
+    "html_path": null,
+    "text": null,
+    "text_sha256": null,
+    "paragraphs": [],
+    "title": null,
+    "published_at": null,
+    "fetched_at": "2026-09-19T07:06:08.808504Z"
+  }
+}

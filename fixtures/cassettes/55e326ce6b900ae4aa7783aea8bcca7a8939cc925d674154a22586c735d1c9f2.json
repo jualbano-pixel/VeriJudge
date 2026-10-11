@@ -1,0 +1,413 @@
+{
+  "operation": "fetch",
+  "request": {
+    "url": "https://psa.gov.ph/content/summary-inflation-report-consumer-price-index-2018100-january-2023"
+  },
+  "response": {
+    "url": "https://psa.gov.ph/content/summary-inflation-report-consumer-price-index-2018100-january-2023",
+    "final_url": "https://psa.gov.ph/content/summary-inflation-report-consumer-price-index-2018100-january-2023",
+    "http_status": 200,
+    "fetch_status": "ok",
+    "failure_reason": null,
+    "content_type": "text/plain",
+    "html_path": "captures/run_G08/doc_G08.html",
+    "text": "Summary Inflation Report Consumer Price Index (2018=100): January 2023 Home >Summary Inflation Report Consumer Price Index (2018=100): January 2023 Release Date : Tuesday, February 7, 2023 Reference Number : 2023-065 Table A. Year-on-Year Inflation Rates, All Items In Percent (2018=100) Area January 2022 December 2022 January 2023 Year-to-Date* Philippines Headline 3.0 8.1 8.7 8.7 Core 1.8 6.9 7.4 7.4 NCR Headline 1.3 7.6 8.6 8.6 AONCR Headline 3.5 8.2 8.7 8.7 Source: Philippine Statistics Authority, Retail Price Survey of Commodities for the Generation of Consumer Price Index *Year-on-year change of average CPI for January 2023 vs. 2022 Figure 1. Headline Inflation Rates in the Philippines, All Items (2018=100) 1. Philippines Headline inflation in the Philippines continued its uptrend as it accelerated further to 8.7 percent in January 2023, from 8.1 percent in December 2022. The January 2023 inflation is the highest annual rate recorded since November 2008. In January 2022, inflation was lower at 3.0 percent. (Tables A, B, 5, and 14, and Figure 1) The main driver in the uptrend of inflation in January 2023 was the higher year-on-year increase in the index of housing, water, electricity, gas and other fuels at 8.5 percent, from 7.0 percent in December 2022. This was followed by food and non-alcoholic beverages at 10.7 percent, from 10.2 percent in December 2022. Also contributed to the increase in inflation was restaurants and accommodation services with an inflation rate of 7.6 percent in January 2023, from 7.0 percent in December 2022. Relative to their annual rates in the previous month, higher annual increases were also observed in the indices of the following commodity groups: a. Alcoholic beverages and tobacco, 10.9 percent; b. Clothing and footwear, 4.4 percent; c. Furnishings, household equipment and routine household maintenance, 5.2 percent; d. Health, 3.3 percent; e. Recreation, sport and culture, 4.2 percent; and f. Personal care, and miscellaneous goods and services, 5.0 percent. On the contrary, lower annual increase was observed in the index of transport at 11.2 percent during the month. Meanwhile, the indices of information and communication, education services, and financial services remained at their previous month’s annual rates of 0.7 percent, 3.6 percent, and 0.0 percent, respectively. (Tables 5 and 6) Food inflation at the national level climbed to 11.2 percent in January 2023, from 10.6 percent in December 2022. In January 2022, food inflation stood at 1.6 percent. (Table 9) The higher food inflation was mainly brought about by the increased year-on-year growth in the index of vegetables, tubers, plantains, cooking bananas and pulses at 37.8 percent in January 2023, from 32.4 percent in December 2022. Moreover, higher annual mark-ups were observed in the indices of the following food groups during the month: a. Flour, bread and other bakery products, pasta products, and other cereals, 11.3 percent; b. Fish and other seafood, 6.7 percent; c. Milk, other dairy products and eggs, 11.3 percent; and d. Fruits and nuts, 9.8 percent. Meanwhile, lower annual growth rates were observed in the indices of the following food groups in January 2023: a. Rice, 2.7 percent; b. Corn, 16.0 percent; c. Meat and other parts of slaughtered land animals, 7.0 percent; d. Oils and fats, 18.5 percent; and e. Ready-made food and other food products not elsewhere classified, 9.2 percent. The index of sugar, confectionery and desserts retained its previous month’s growth rate of 38.8 percent. (Tables 7 and 13) Core inflation, which excludes selected food and energy items in the headline inflation, rose to 7.4 percent in January 2023, from 6.9 percent in December 2022. In January 2022, core inflation was lower at 1.8 percent. (Tables A and 11) Table B. Year-on-Year Inflation Rates in the Philippines, All Items in Percent January 2019 - January 2023 (2018=100) 2. National Capital Region (NCR) Inflation in NCR, likewise, increased further to 8.6 percent in January 2023, from 7.6 percent in December 2022. In January 2022, inflation rate in the area stood at 1.3 percent. (Tables A and 5) Housing, water, electricity, gas and other fuels, with 6.9 percent inflation in January 2023 from 4.0 percent in the previous month, primarily contributed to the uptrend of inflation in the region. Food and non-alcoholic beverages followed with an inflation rate of 12.1 percent, from 11.2 percent in the previous month. Restaurants and accommodation services came third with an inflation rate of 10.4 percent, from 9.5 percent in December 2022. Higher year-on-year mark-ups were also noted in the following commodity groups during the month: a. Clothing and footwear, 2.7 percent; b. Health, 1.6 percent; c. Recreation, sport and culture, 3.5 percent; and d. Personal care, and miscellaneous goods and services, 2.9 percent. In contrast, slower annual increments in January 2023 were observed in the indices of alcoholic beverages and tobacco at 6.6 percent; transport at 12.8 percent; and information and communication at 0.3 percent. The indices for the rest of the commodity groups continued to move at their respective rates in December 2022. (Tables 5 and 6) 3. Areas Outside NCR (AONCR) Similarly, inflation in AONCR went up further to 8.7 percent in January 2023, from 8.2 percent in December 2022. In January 2022, inflation in the area was recorded at 3.5 percent. (Tables A and 5) The acceleration of inflation in the area was brought about by the higher annual mark-up in the index of housing, water, electricity, gas and other fuels at 9.0 percent in January 2023, from 8.1 percent in December 2022. This was followed by food and non-alcoholic beverages, recording 10.4 percent annual growth rate, from 10.0 percent in December 2022. Restaurants and accommodation services with 6.6 percent inflation rate, from 6.0 percent in December 2022, was the third highest contributor to the uptrend of inflation in AONCR. Other commodity groups with higher inflation in January 2023 than in the previous month were the following: a. Alcoholic beverages and tobacco, 11.7 percent; b. Clothing and footwear, 4.7 percent; c. Furnishings, household equipment and routine household maintenance, 5.4 percent; d. Health, 3.6 percent; e. Recreation, sport and culture, 4.3 percent; f. Education services, 2.1 percent; and g. Personal care, and miscellaneous goods and services, 5.4 percent. On the other hand, transport exhibited slower inflation rate at 10.8 percent, from 11.2 percent in December 2022. The annual rates in the indices of information and communication; and financial services remained at their respective previous month’s annual growth rates of 0.8 percent and 0.0 percent. (Tables 5 and 6) Compared with their respective annual growth rates in December 2022, 10 regions in AONCR showed higher inflation rates in January 2023. Among the regions in AONCR, Region VI (Western Visayas) posted the highest inflation rate of 10.3 percent, while Region VIII (Eastern Visayas) registered the lowest inflation of 6.9 percent. (Table 6) Note: CPIs and inflation rates by province and selected city are posted at the PSA website (https://openstat.psa.gov.ph/). DENNIS S. MAPA, Ph.D. Undersecretary National Statistician and Civil Registrar General See more at the CPI and Inflation Rate main page.",
+    "text_sha256": "d20fb1293711e28f74c96dd706c4eebf88212b55463325bfaa291be95a79cc59",
+    "paragraphs": [
+      {
+        "index": 0,
+        "start": 0,
+        "end": 70
+      },
+      {
+        "index": 1,
+        "start": 71,
+        "end": 147
+      },
+      {
+        "index": 2,
+        "start": 148,
+        "end": 162
+      },
+      {
+        "index": 3,
+        "start": 163,
+        "end": 188
+      },
+      {
+        "index": 4,
+        "start": 189,
+        "end": 207
+      },
+      {
+        "index": 5,
+        "start": 208,
+        "end": 216
+      },
+      {
+        "index": 6,
+        "start": 217,
+        "end": 265
+      },
+      {
+        "index": 7,
+        "start": 266,
+        "end": 276
+      },
+      {
+        "index": 8,
+        "start": 277,
+        "end": 287
+      },
+      {
+        "index": 9,
+        "start": 288,
+        "end": 292
+      },
+      {
+        "index": 10,
+        "start": 293,
+        "end": 305
+      },
+      {
+        "index": 11,
+        "start": 306,
+        "end": 319
+      },
+      {
+        "index": 12,
+        "start": 320,
+        "end": 332
+      },
+      {
+        "index": 13,
+        "start": 333,
+        "end": 346
+      },
+      {
+        "index": 14,
+        "start": 347,
+        "end": 358
+      },
+      {
+        "index": 15,
+        "start": 359,
+        "end": 383
+      },
+      {
+        "index": 16,
+        "start": 384,
+        "end": 404
+      },
+      {
+        "index": 17,
+        "start": 405,
+        "end": 408
+      },
+      {
+        "index": 18,
+        "start": 409,
+        "end": 433
+      },
+      {
+        "index": 19,
+        "start": 434,
+        "end": 439
+      },
+      {
+        "index": 20,
+        "start": 440,
+        "end": 464
+      },
+      {
+        "index": 21,
+        "start": 465,
+        "end": 562
+      },
+      {
+        "index": 22,
+        "start": 563,
+        "end": 583
+      },
+      {
+        "index": 23,
+        "start": 584,
+        "end": 645
+      },
+      {
+        "index": 24,
+        "start": 646,
+        "end": 721
+      },
+      {
+        "index": 25,
+        "start": 722,
+        "end": 736
+      },
+      {
+        "index": 26,
+        "start": 737,
+        "end": 1065
+      },
+      {
+        "index": 27,
+        "start": 1066,
+        "end": 1564
+      },
+      {
+        "index": 28,
+        "start": 1565,
+        "end": 1711
+      },
+      {
+        "index": 29,
+        "start": 1712,
+        "end": 1761
+      },
+      {
+        "index": 30,
+        "start": 1762,
+        "end": 1800
+      },
+      {
+        "index": 31,
+        "start": 1801,
+        "end": 1884
+      },
+      {
+        "index": 32,
+        "start": 1885,
+        "end": 1908
+      },
+      {
+        "index": 33,
+        "start": 1909,
+        "end": 1959
+      },
+      {
+        "index": 34,
+        "start": 1960,
+        "end": 2028
+      },
+      {
+        "index": 35,
+        "start": 2029,
+        "end": 2365
+      },
+      {
+        "index": 36,
+        "start": 2366,
+        "end": 2543
+      },
+      {
+        "index": 37,
+        "start": 2544,
+        "end": 2883
+      },
+      {
+        "index": 38,
+        "start": 2884,
+        "end": 2975
+      },
+      {
+        "index": 39,
+        "start": 2976,
+        "end": 3015
+      },
+      {
+        "index": 40,
+        "start": 3016,
+        "end": 3073
+      },
+      {
+        "index": 41,
+        "start": 3074,
+        "end": 3106
+      },
+      {
+        "index": 42,
+        "start": 3107,
+        "end": 3218
+      },
+      {
+        "index": 43,
+        "start": 3219,
+        "end": 3240
+      },
+      {
+        "index": 44,
+        "start": 3241,
+        "end": 3263
+      },
+      {
+        "index": 45,
+        "start": 3264,
+        "end": 3329
+      },
+      {
+        "index": 46,
+        "start": 3330,
+        "end": 3365
+      },
+      {
+        "index": 47,
+        "start": 3366,
+        "end": 3447
+      },
+      {
+        "index": 48,
+        "start": 3448,
+        "end": 3571
+      },
+      {
+        "index": 49,
+        "start": 3572,
+        "end": 3808
+      },
+      {
+        "index": 50,
+        "start": 3809,
+        "end": 3926
+      },
+      {
+        "index": 51,
+        "start": 3927,
+        "end": 3959
+      },
+      {
+        "index": 52,
+        "start": 3960,
+        "end": 4155
+      },
+      {
+        "index": 53,
+        "start": 4156,
+        "end": 4601
+      },
+      {
+        "index": 54,
+        "start": 4602,
+        "end": 4698
+      },
+      {
+        "index": 55,
+        "start": 4699,
+        "end": 4737
+      },
+      {
+        "index": 56,
+        "start": 4738,
+        "end": 4761
+      },
+      {
+        "index": 57,
+        "start": 4762,
+        "end": 4812
+      },
+      {
+        "index": 58,
+        "start": 4813,
+        "end": 4881
+      },
+      {
+        "index": 59,
+        "start": 4882,
+        "end": 5220
+      },
+      {
+        "index": 60,
+        "start": 5221,
+        "end": 5249
+      },
+      {
+        "index": 61,
+        "start": 5250,
+        "end": 5447
+      },
+      {
+        "index": 62,
+        "start": 5448,
+        "end": 5981
+      },
+      {
+        "index": 63,
+        "start": 5982,
+        "end": 6089
+      },
+      {
+        "index": 64,
+        "start": 6090,
+        "end": 6139
+      },
+      {
+        "index": 65,
+        "start": 6140,
+        "end": 6178
+      },
+      {
+        "index": 66,
+        "start": 6179,
+        "end": 6262
+      },
+      {
+        "index": 67,
+        "start": 6263,
+        "end": 6286
+      },
+      {
+        "index": 68,
+        "start": 6287,
+        "end": 6333
+      },
+      {
+        "index": 69,
+        "start": 6334,
+        "end": 6373
+      },
+      {
+        "index": 70,
+        "start": 6374,
+        "end": 6442
+      },
+      {
+        "index": 71,
+        "start": 6443,
+        "end": 6760
+      },
+      {
+        "index": 72,
+        "start": 6761,
+        "end": 7097
+      },
+      {
+        "index": 73,
+        "start": 7098,
+        "end": 7220
+      },
+      {
+        "index": 74,
+        "start": 7221,
+        "end": 7242
+      },
+      {
+        "index": 75,
+        "start": 7243,
+        "end": 7257
+      },
+      {
+        "index": 76,
+        "start": 7258,
+        "end": 7307
+      },
+      {
+        "index": 77,
+        "start": 7308,
+        "end": 7357
+      }
+    ],
+    "title": "Summary Inflation Report Consumer Price Index (2018=100): January 2023",
+    "published_at": "2023-02-07T00:00:00+00:00",
+    "fetched_at": "2026-09-19T07:09:22.688257+00:00",
+    "capture_bytes": "U3VtbWFyeSBJbmZsYXRpb24gUmVwb3J0IENvbnN1bWVyIFByaWNlIEluZGV4ICgyMDE4PTEwMCk6IEphbnVhcnkgMjAyMwpIb21lID5TdW1tYXJ5IEluZmxhdGlvbiBSZXBvcnQgQ29uc3VtZXIgUHJpY2UgSW5kZXggKDIwMTg9MTAwKTogSmFudWFyeSAyMDIzClJlbGVhc2UgRGF0ZSA6ClR1ZXNkYXksIEZlYnJ1YXJ5IDcsIDIwMjMKUmVmZXJlbmNlIE51bWJlciA6CjIwMjMtMDY1ClRhYmxlIEEuIFllYXItb24tWWVhciBJbmZsYXRpb24gUmF0ZXMsIEFsbCBJdGVtcwpJbiBQZXJjZW50CigyMDE4PTEwMCkKCgpBcmVhCQoKSmFudWFyeSAyMDIyCQoKRGVjZW1iZXIgMjAyMgkKCkphbnVhcnkgMjAyMwkKClllYXItdG8tRGF0ZSoKUGhpbGlwcGluZXMJCQkJCkhlYWRsaW5lCTMuMAk4LjEJOC43CTguNwpDb3JlCTEuOAk2LjkJNy40CTcuNApOQ1IJCQkJCkhlYWRsaW5lCTEuMwk3LjYJOC42CTguNgpBT05DUgkJCQkKSGVhZGxpbmUJMy41CTguMgk4LjcJOC43ClNvdXJjZTogUGhpbGlwcGluZSBTdGF0aXN0aWNzIEF1dGhvcml0eSwgUmV0YWlsIFByaWNlIFN1cnZleSBvZiBDb21tb2RpdGllcyBmb3IgdGhlIEdlbmVyYXRpb24gb2YKQ29uc3VtZXIgUHJpY2UgSW5kZXgKKlllYXItb24teWVhciBjaGFuZ2Ugb2YgYXZlcmFnZSBDUEkgZm9yIEphbnVhcnkgMjAyMyB2cy4gMjAyMgpGaWd1cmUgMS4gSGVhZGxpbmUgSW5mbGF0aW9uIFJhdGVzIGluIHRoZSBQaGlsaXBwaW5lcywgQWxsIEl0ZW1zICgyMDE4PTEwMCkKMS4gUGhpbGlwcGluZXMKCkhlYWRsaW5lIGluZmxhdGlvbiBpbiB0aGUgUGhpbGlwcGluZXMgY29udGludWVkIGl0cyB1cHRyZW5kIGFzIGl0IGFjY2VsZXJhdGVkIGZ1cnRoZXIgdG8gOC43IHBlcmNlbnQgaW4gSmFudWFyeSAyMDIzLCBmcm9tIDguMSBwZXJjZW50IGluIERlY2VtYmVyIDIwMjIuIFRoZSBKYW51YXJ5IDIwMjMgaW5mbGF0aW9uIGlzIHRoZSBoaWdoZXN0IGFubnVhbCByYXRlIHJlY29yZGVkIHNpbmNlIE5vdmVtYmVyIDIwMDguIEluIEphbnVhcnkgMjAyMiwgaW5mbGF0aW9uIHdhcyBsb3dlciBhdCAzLjAgcGVyY2VudC4gKFRhYmxlcyBBLCBCLCA1LCBhbmQgMTQsIGFuZCBGaWd1cmUgMSkKClRoZSBtYWluIGRyaXZlciBpbiB0aGUgdXB0cmVuZCBvZiBpbmZsYXRpb24gaW4gSmFudWFyeSAyMDIzIHdhcyB0aGUgaGlnaGVyIHllYXItb24teWVhciBpbmNyZWFzZSBpbiB0aGUgaW5kZXggb2YgaG91c2luZywgd2F0ZXIsIGVsZWN0cmljaXR5LCBnYXMgYW5kIG90aGVyIGZ1ZWxzIGF0IDguNSBwZXJjZW50LCBmcm9tIDcuMCBwZXJjZW50IGluIERlY2VtYmVyIDIwMjIuIFRoaXMgd2FzIGZvbGxvd2VkIGJ5IGZvb2QgYW5kIG5vbi1hbGNvaG9saWMgYmV2ZXJhZ2VzIGF0IDEwLjcgcGVyY2VudCwgZnJvbSAxMC4yIHBlcmNlbnQgaW4gRGVjZW1iZXIgMjAyMi4gQWxzbyBjb250cmlidXRlZCB0byB0aGUgaW5jcmVhc2UgaW4gaW5mbGF0aW9uIHdhcyByZXN0YXVyYW50cyBhbmQgYWNjb21tb2RhdGlvbiBzZXJ2aWNlcyB3aXRoIGFuIGluZmxhdGlvbiByYXRlIG9mIDcuNiBwZXJjZW50IGluIEphbnVhcnkgMjAyMywgZnJvbSA3LjAgcGVyY2VudCBpbiBEZWNlbWJlciAyMDIyLgoKUmVsYXRpdmUgdG8gdGhlaXIgYW5udWFsIHJhdGVzIGluIHRoZSBwcmV2aW91cyBtb250aCwgaGlnaGVyIGFubnVhbCBpbmNyZWFzZXMgd2VyZSBhbHNvIG9ic2VydmVkIGluIHRoZSBpbmRpY2VzIG9mIHRoZSBmb2xsb3dpbmcgY29tbW9kaXR5IGdyb3VwczoKCmEuIEFsY29ob2xpYyBiZXZlcmFnZXMgYW5kIHRvYmFjY28sIDEwLjkgcGVyY2VudDsKYi4gQ2xvdGhpbmcgYW5kIGZvb3R3ZWFyLCA0LjQgcGVyY2VudDsKYy4gRnVybmlzaGluZ3MsIGhvdXNlaG9sZCBlcXVpcG1lbnQgYW5kIHJvdXRpbmUgaG91c2Vob2xkIG1haW50ZW5hbmNlLCA1LjIgcGVyY2VudDsKZC4gSGVhbHRoLCAzLjMgcGVyY2VudDsKZS4gUmVjcmVhdGlvbiwgc3BvcnQgYW5kIGN1bHR1cmUsIDQuMiBwZXJjZW50OyBhbmQKZi4gUGVyc29uYWwgY2FyZSwgYW5kIG1pc2NlbGxhbmVvdXMgZ29vZHMgYW5kIHNlcnZpY2VzLCA1LjAgcGVyY2VudC4KCk9uIHRoZSBjb250cmFyeSwgbG93ZXIgYW5udWFsIGluY3JlYXNlIHdhcyBvYnNlcnZlZCBpbiB0aGUgaW5kZXggb2YgdHJhbnNwb3J0IGF0IDExLjIgcGVyY2VudCBkdXJpbmcgdGhlIG1vbnRoLiBNZWFud2hpbGUsIHRoZSBpbmRpY2VzIG9mIGluZm9ybWF0aW9uIGFuZCBjb21tdW5pY2F0aW9uLCBlZHVjYXRpb24gc2VydmljZXMsIGFuZCBmaW5hbmNpYWwgc2VydmljZXMgcmVtYWluZWQgYXQgdGhlaXIgcHJldmlvdXMgbW9udGjigJlzIGFubnVhbCByYXRlcyBvZiAwLjcgcGVyY2VudCwgMy42IHBlcmNlbnQsIGFuZCAwLjAgcGVyY2VudCwgcmVzcGVjdGl2ZWx5LiAoVGFibGVzIDUgYW5kIDYpCgpGb29kIGluZmxhdGlvbiBhdCB0aGUgbmF0aW9uYWwgbGV2ZWwgY2xpbWJlZCB0byAxMS4yIHBlcmNlbnQgaW4gSmFudWFyeSAyMDIzLCBmcm9tIDEwLjYgcGVyY2VudCBpbiBEZWNlbWJlciAyMDIyLiBJbiBKYW51YXJ5IDIwMjIsIGZvb2QgaW5mbGF0aW9uIHN0b29kIGF0IDEuNiBwZXJjZW50LiAoVGFibGUgOSkKClRoZSBoaWdoZXIgZm9vZCBpbmZsYXRpb24gd2FzIG1haW5seSBicm91Z2h0IGFib3V0IGJ5IHRoZSBpbmNyZWFzZWQgeWVhci1vbi15ZWFyIGdyb3d0aCBpbiB0aGUgaW5kZXggb2YgdmVnZXRhYmxlcywgdHViZXJzLCBwbGFudGFpbnMsIGNvb2tpbmcgYmFuYW5hcyBhbmQgcHVsc2VzIGF0IDM3LjggcGVyY2VudCBpbiBKYW51YXJ5IDIwMjMsIGZyb20gMzIuNCBwZXJjZW50IGluIERlY2VtYmVyIDIwMjIuIE1vcmVvdmVyLCBoaWdoZXIgYW5udWFsIG1hcmstdXBzIHdlcmUgb2JzZXJ2ZWQgaW4gdGhlIGluZGljZXMgb2YgdGhlIGZvbGxvd2luZyBmb29kIGdyb3VwcyBkdXJpbmcgdGhlIG1vbnRoOgoKYS4gRmxvdXIsIGJyZWFkIGFuZCBvdGhlciBiYWtlcnkgcHJvZHVjdHMsIHBhc3RhIHByb2R1Y3RzLCBhbmQgb3RoZXIgY2VyZWFscywgMTEuMyBwZXJjZW50OwpiLiBGaXNoIGFuZCBvdGhlciBzZWFmb29kLCA2LjcgcGVyY2VudDsKYy4gTWlsaywgb3RoZXIgZGFpcnkgcHJvZHVjdHMgYW5kIGVnZ3MsIDExLjMgcGVyY2VudDsgYW5kCmQuIEZydWl0cyBhbmQgbnV0cywgOS44IHBlcmNlbnQuCgpNZWFud2hpbGUsIGxvd2VyIGFubnVhbCBncm93dGggcmF0ZXMgd2VyZSBvYnNlcnZlZCBpbiB0aGUgaW5kaWNlcyBvZiB0aGUgZm9sbG93aW5nIGZvb2QgZ3JvdXBzIGluIEphbnVhcnkgMjAyMzoKCmEuIFJpY2UsIDIuNyBwZXJjZW50OwpiLiBDb3JuLCAxNi4wIHBlcmNlbnQ7CmMuIE1lYXQgYW5kIG90aGVyIHBhcnRzIG9mIHNsYXVnaHRlcmVkIGxhbmQgYW5pbWFscywgNy4wIHBlcmNlbnQ7CmQuIE9pbHMgYW5kIGZhdHMsIDE4LjUgcGVyY2VudDsgYW5kCmUuIFJlYWR5LW1hZGUgZm9vZCBhbmQgb3RoZXIgZm9vZCBwcm9kdWN0cyBub3QgZWxzZXdoZXJlIGNsYXNzaWZpZWQsIDkuMiBwZXJjZW50LgoKVGhlIGluZGV4IG9mIHN1Z2FyLCBjb25mZWN0aW9uZXJ5IGFuZCBkZXNzZXJ0cyByZXRhaW5lZCBpdHMgcHJldmlvdXMgbW9udGjigJlzIGdyb3d0aCByYXRlIG9mIDM4LjggcGVyY2VudC4gKFRhYmxlcyA3IGFuZCAxMykKCkNvcmUgaW5mbGF0aW9uLCB3aGljaCBleGNsdWRlcyBzZWxlY3RlZCBmb29kIGFuZCBlbmVyZ3kgaXRlbXMgaW4gdGhlIGhlYWRsaW5lIGluZmxhdGlvbiwgcm9zZSB0byA3LjQgcGVyY2VudCBpbiBKYW51YXJ5IDIwMjMsIGZyb20gNi45IHBlcmNlbnQgaW4gRGVjZW1iZXIgMjAyMi4gSW4gSmFudWFyeSAyMDIyLCBjb3JlIGluZmxhdGlvbiB3YXMgbG93ZXIgYXQgMS44IHBlcmNlbnQuIChUYWJsZXMgQSBhbmQgMTEpCgpUYWJsZSBCLiBZZWFyLW9uLVllYXIgSW5mbGF0aW9uIFJhdGVzIGluIHRoZSBQaGlsaXBwaW5lcywgQWxsIEl0ZW1zIGluIFBlcmNlbnQgSmFudWFyeSAyMDE5IC0gSmFudWFyeSAyMDIzICgyMDE4PTEwMCkKMi4gTmF0aW9uYWwgQ2FwaXRhbCBSZWdpb24gKE5DUikKCkluZmxhdGlvbiBpbiBOQ1IsIGxpa2V3aXNlLCBpbmNyZWFzZWQgZnVydGhlciB0byA4LjYgcGVyY2VudCBpbiBKYW51YXJ5IDIwMjMsIGZyb20gNy42IHBlcmNlbnQgaW4gRGVjZW1iZXIgMjAyMi4gSW4gSmFudWFyeSAyMDIyLCBpbmZsYXRpb24gcmF0ZSBpbiB0aGUgYXJlYSBzdG9vZCBhdCAxLjMgcGVyY2VudC4gKFRhYmxlcyBBIGFuZCA1KQoKSG91c2luZywgd2F0ZXIsIGVsZWN0cmljaXR5LCBnYXMgYW5kIG90aGVyIGZ1ZWxzLCB3aXRoIDYuOSBwZXJjZW50IGluZmxhdGlvbiBpbiBKYW51YXJ5IDIwMjMgZnJvbSA0LjAgcGVyY2VudCBpbiB0aGUgcHJldmlvdXMgbW9udGgsIHByaW1hcmlseSBjb250cmlidXRlZCB0byB0aGUgdXB0cmVuZCBvZiBpbmZsYXRpb24gaW4gdGhlIHJlZ2lvbi4gRm9vZCBhbmQgbm9uLWFsY29ob2xpYyBiZXZlcmFnZXMgZm9sbG93ZWQgd2l0aCBhbiBpbmZsYXRpb24gcmF0ZSBvZiAxMi4xIHBlcmNlbnQsIGZyb20gMTEuMiBwZXJjZW50IGluIHRoZSBwcmV2aW91cyBtb250aC4gUmVzdGF1cmFudHMgYW5kIGFjY29tbW9kYXRpb24gc2VydmljZXMgY2FtZSB0aGlyZCB3aXRoIGFuIGluZmxhdGlvbiByYXRlIG9mIDEwLjQgcGVyY2VudCwgZnJvbSA5LjUgcGVyY2VudCBpbiBEZWNlbWJlciAyMDIyLgoKSGlnaGVyIHllYXItb24teWVhciBtYXJrLXVwcyB3ZXJlIGFsc28gbm90ZWQgaW4gdGhlIGZvbGxvd2luZyBjb21tb2RpdHkgZ3JvdXBzIGR1cmluZyB0aGUgbW9udGg6CgphLiBDbG90aGluZyBhbmQgZm9vdHdlYXIsIDIuNyBwZXJjZW50OwpiLiBIZWFsdGgsIDEuNiBwZXJjZW50OwpjLiBSZWNyZWF0aW9uLCBzcG9ydCBhbmQgY3VsdHVyZSwgMy41IHBlcmNlbnQ7IGFuZApkLiBQZXJzb25hbCBjYXJlLCBhbmQgbWlzY2VsbGFuZW91cyBnb29kcyBhbmQgc2VydmljZXMsIDIuOSBwZXJjZW50LgoKSW4gY29udHJhc3QsIHNsb3dlciBhbm51YWwgaW5jcmVtZW50cyBpbiBKYW51YXJ5IDIwMjMgd2VyZSBvYnNlcnZlZCBpbiB0aGUgaW5kaWNlcyBvZiBhbGNvaG9saWMgYmV2ZXJhZ2VzIGFuZCB0b2JhY2NvIGF0IDYuNiBwZXJjZW50OyB0cmFuc3BvcnQgYXQgMTIuOCBwZXJjZW50OyBhbmQgaW5mb3JtYXRpb24gYW5kIGNvbW11bmljYXRpb24gYXQgMC4zIHBlcmNlbnQuIFRoZSBpbmRpY2VzIGZvciB0aGUgcmVzdCBvZiB0aGUgY29tbW9kaXR5IGdyb3VwcyBjb250aW51ZWQgdG8gbW92ZSBhdCB0aGVpciByZXNwZWN0aXZlIHJhdGVzIGluIERlY2VtYmVyIDIwMjIuIChUYWJsZXMgNSBhbmQgNikKCjMuIEFyZWFzIE91dHNpZGUgTkNSIChBT05DUikKClNpbWlsYXJseSwgaW5mbGF0aW9uIGluIEFPTkNSIHdlbnQgdXAgZnVydGhlciB0byA4LjcgcGVyY2VudCBpbiBKYW51YXJ5IDIwMjMsIGZyb20gOC4yIHBlcmNlbnQgaW4gRGVjZW1iZXIgMjAyMi4gSW4gSmFudWFyeSAyMDIyLCBpbmZsYXRpb24gaW4gdGhlIGFyZWEgd2FzIHJlY29yZGVkIGF0IDMuNSBwZXJjZW50LiAoVGFibGVzIEEgYW5kIDUpCgpUaGUgYWNjZWxlcmF0aW9uIG9mIGluZmxhdGlvbiBpbiB0aGUgYXJlYSB3YXMgYnJvdWdodCBhYm91dCBieSB0aGUgaGlnaGVyIGFubnVhbCBtYXJrLXVwIGluIHRoZSBpbmRleCBvZiBob3VzaW5nLCB3YXRlciwgZWxlY3RyaWNpdHksIGdhcyBhbmQgb3RoZXIgZnVlbHMgYXQgOS4wIHBlcmNlbnQgaW4gSmFudWFyeSAyMDIzLCBmcm9tIDguMSBwZXJjZW50IGluIERlY2VtYmVyIDIwMjIuIFRoaXMgd2FzIGZvbGxvd2VkIGJ5IGZvb2QgYW5kIG5vbi1hbGNvaG9saWMgYmV2ZXJhZ2VzLCByZWNvcmRpbmcgMTAuNCBwZXJjZW50IGFubnVhbCBncm93dGggcmF0ZSwgZnJvbSAxMC4wIHBlcmNlbnQgaW4gRGVjZW1iZXIgMjAyMi4gUmVzdGF1cmFudHMgYW5kIGFjY29tbW9kYXRpb24gc2VydmljZXMgd2l0aCA2LjYgcGVyY2VudCBpbmZsYXRpb24gcmF0ZSwgZnJvbSA2LjAgcGVyY2VudCBpbiBEZWNlbWJlciAyMDIyLCB3YXMgdGhlIHRoaXJkIGhpZ2hlc3QgY29udHJpYnV0b3IgdG8gdGhlIHVwdHJlbmQgb2YgaW5mbGF0aW9uIGluIEFPTkNSLgoKT3RoZXIgY29tbW9kaXR5IGdyb3VwcyB3aXRoIGhpZ2hlciBpbmZsYXRpb24gaW4gSmFudWFyeSAyMDIzIHRoYW4gaW4gdGhlIHByZXZpb3VzIG1vbnRoIHdlcmUgdGhlIGZvbGxvd2luZzoKCmEuIEFsY29ob2xpYyBiZXZlcmFnZXMgYW5kIHRvYmFjY28sIDExLjcgcGVyY2VudDsKYi4gQ2xvdGhpbmcgYW5kIGZvb3R3ZWFyLCA0LjcgcGVyY2VudDsKYy4gRnVybmlzaGluZ3MsIGhvdXNlaG9sZCBlcXVpcG1lbnQgYW5kIHJvdXRpbmUgaG91c2Vob2xkIG1haW50ZW5hbmNlLCA1LjQgcGVyY2VudDsKZC4gSGVhbHRoLCAzLjYgcGVyY2VudDsKZS4gUmVjcmVhdGlvbiwgc3BvcnQgYW5kIGN1bHR1cmUsIDQuMyBwZXJjZW50OwpmLiBFZHVjYXRpb24gc2VydmljZXMsIDIuMSBwZXJjZW50OyBhbmQKZy4gUGVyc29uYWwgY2FyZSwgYW5kIG1pc2NlbGxhbmVvdXMgZ29vZHMgYW5kIHNlcnZpY2VzLCA1LjQgcGVyY2VudC4KCk9uIHRoZSBvdGhlciBoYW5kLCB0cmFuc3BvcnQgZXhoaWJpdGVkIHNsb3dlciBpbmZsYXRpb24gcmF0ZSBhdCAxMC44IHBlcmNlbnQsIGZyb20gMTEuMiBwZXJjZW50IGluIERlY2VtYmVyIDIwMjIuIFRoZSBhbm51YWwgcmF0ZXMgaW4gdGhlIGluZGljZXMgb2YgaW5mb3JtYXRpb24gYW5kIGNvbW11bmljYXRpb247IGFuZCBmaW5hbmNpYWwgc2VydmljZXMgcmVtYWluZWQgYXQgdGhlaXIgcmVzcGVjdGl2ZSBwcmV2aW91cyBtb250aOKAmXMgYW5udWFsIGdyb3d0aCByYXRlcyBvZiAwLjggcGVyY2VudCBhbmQgMC4wIHBlcmNlbnQuIChUYWJsZXMgNSBhbmQgNikKCkNvbXBhcmVkIHdpdGggdGhlaXIgcmVzcGVjdGl2ZSBhbm51YWwgZ3Jvd3RoIHJhdGVzIGluIERlY2VtYmVyIDIwMjIsIDEwIHJlZ2lvbnMgaW4gQU9OQ1Igc2hvd2VkIGhpZ2hlciBpbmZsYXRpb24gcmF0ZXMgaW4gSmFudWFyeSAyMDIzLiBBbW9uZyB0aGUgcmVnaW9ucyBpbiBBT05DUiwgUmVnaW9uIFZJIChXZXN0ZXJuIFZpc2F5YXMpIHBvc3RlZCB0aGUgaGlnaGVzdCBpbmZsYXRpb24gcmF0ZSBvZiAxMC4zIHBlcmNlbnQsIHdoaWxlIFJlZ2lvbiBWSUlJIChFYXN0ZXJuIFZpc2F5YXMpIHJlZ2lzdGVyZWQgdGhlIGxvd2VzdCBpbmZsYXRpb24gb2YgNi45IHBlcmNlbnQuIChUYWJsZSA2KQoKTm90ZTogQ1BJcyBhbmQgaW5mbGF0aW9uIHJhdGVzIGJ5IHByb3ZpbmNlIGFuZCBzZWxlY3RlZCBjaXR5IGFyZSBwb3N0ZWQgYXQgdGhlIFBTQSB3ZWJzaXRlIChodHRwczovL29wZW5zdGF0LnBzYS5nb3YucGgvKS4KCkRFTk5JUyBTLiBNQVBBLCBQaC5ELgpVbmRlcnNlY3JldGFyeQpOYXRpb25hbCBTdGF0aXN0aWNpYW4gYW5kIENpdmlsIFJlZ2lzdHJhciBHZW5lcmFsCgpTZWUgbW9yZSBhdCB0aGUgQ1BJIGFuZCBJbmZsYXRpb24gUmF0ZSBtYWluIHBhZ2Uu"
+  }
+}

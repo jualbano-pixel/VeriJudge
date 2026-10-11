@@ -1,0 +1,12 @@
+model: stub
+provider_keys:
+  web: ""
+  llm: ""
+max_searches: 8
+max_captures: 10
+max_fetch_attempts: 15
+wall_clock_s: 180
+OPERATOR_TOKEN: ""
+VIEWER_TOKEN: ""
+database_url: postgresql+psycopg://veryjudge:veryjudge@127.0.0.1:5432/veryjudge
+

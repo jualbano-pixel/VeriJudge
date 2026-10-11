@@ -1,0 +1,21 @@
+{
+  "operation": "fetch",
+  "request": {
+    "url": "https://psa.gov.ph/content/2020-census-population-and-housing-2020-cph-population-counts-declared-official-president"
+  },
+  "response": {
+    "url": "https://psa.gov.ph/content/2020-census-population-and-housing-2020-cph-population-counts-declared-official-president",
+    "final_url": "https://psa.gov.ph/content/2020-census-population-and-housing-2020-cph-population-counts-declared-official-president",
+    "http_status": null,
+    "fetch_status": "failed",
+    "failure_reason": "network_error",
+    "content_type": null,
+    "html_path": null,
+    "text": null,
+    "text_sha256": null,
+    "paragraphs": [],
+    "title": null,
+    "published_at": null,
+    "fetched_at": "2026-09-19T06:42:36.772132Z"
+  }
+}

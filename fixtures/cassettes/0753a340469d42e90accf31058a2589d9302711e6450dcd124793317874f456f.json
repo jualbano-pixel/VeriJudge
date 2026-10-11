@@ -1,0 +1,43 @@
+{
+  "operation": "fetch",
+  "request": {
+    "url": "https://www.pna.gov.ph/articles/1257400"
+  },
+  "response": {
+    "url": "https://www.pna.gov.ph/articles/1257400",
+    "final_url": "https://www.pna.gov.ph/articles/1257400",
+    "http_status": 200,
+    "fetch_status": "ok",
+    "failure_reason": null,
+    "content_type": "text/html",
+    "html_path": "captures/run_G06/doc_G06_pna.html",
+    "text": "Farmers get cash aid, farm machinery in Camarines Sur August 27, 2025 LEGAZPI CITY – A total of 985 farmers in Camarines Sur received cash aid and modern agricultural machinery from the Department of Agriculture (DA) earlier this week. In a media release Wednesday, the DA-5 said at least 627 registered rice farmers, under the Registry System for Basic Sectors in Agriculture, each received PHP7,000 in financial aid.",
+    "text_sha256": "57fb16955450a914eaadb7cebc2630bf12010fc727cad855106de3253b65cebb",
+    "paragraphs": [
+      {
+        "index": 0,
+        "start": 0,
+        "end": 53
+      },
+      {
+        "index": 1,
+        "start": 54,
+        "end": 69
+      },
+      {
+        "index": 2,
+        "start": 70,
+        "end": 235
+      },
+      {
+        "index": 3,
+        "start": 236,
+        "end": 418
+      }
+    ],
+    "title": null,
+    "published_at": "2025-08-26T00:00:00+00:00",
+    "fetched_at": "2026-09-19T08:02:59.354995+00:00",
+    "capture_bytes": "RmFybWVycyBnZXQgY2FzaCBhaWQsIGZhcm0gbWFjaGluZXJ5IGluIENhbWFyaW5lcyBTdXIKQXVndXN0IDI3LCAyMDI1CkxFR0FaUEkgQ0lUWSDigJMgQSB0b3RhbCBvZiA5ODUgZmFybWVycyBpbiBDYW1hcmluZXMgU3VyIHJlY2VpdmVkIGNhc2ggYWlkIGFuZCBtb2Rlcm4gYWdyaWN1bHR1cmFsIG1hY2hpbmVyeSBmcm9tIHRoZSBEZXBhcnRtZW50IG9mIEFncmljdWx0dXJlIChEQSkgZWFybGllciB0aGlzIHdlZWsuCkluIGEgbWVkaWEgcmVsZWFzZSBXZWRuZXNkYXksIHRoZSBEQS01IHNhaWQgYXQgbGVhc3QgNjI3IHJlZ2lzdGVyZWQgcmljZSBmYXJtZXJzLCB1bmRlciB0aGUgUmVnaXN0cnkgU3lzdGVtIGZvciBCYXNpYyBTZWN0b3JzIGluIEFncmljdWx0dXJlLCBlYWNoIHJlY2VpdmVkIFBIUDcsMDAwIGluIGZpbmFuY2lhbCBhaWQuCg=="
+  }
+}
