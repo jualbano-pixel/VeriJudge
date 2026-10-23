@@ -32,7 +32,7 @@ def create_app(settings=None, llm=None, database=None, run_handler=None, runner_
         app.state.settings = settings or load_settings()
         app.state.db = database or Database(app.state.settings.database_url)
         app.state.llm = llm or (StubLLM() if app.state.settings.model == "stub" else
-            OpenAILLM(app.state.settings.provider_keys.get("llm", ""), app.state.settings.model))
+            OpenAILLM(app.state.settings.provider_keys.get("llm", ""), app.state.settings.model, app.state.settings.llm_base_url or None))
         app.state.extractor = ClaimExtractor(app.state.llm)
         reap_orphaned_runs(app.state.db)
         app.state.executor = None

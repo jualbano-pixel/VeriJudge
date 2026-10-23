@@ -7,6 +7,7 @@ import yaml
 
 class Settings(BaseModel):
     model: str = "stub"
+    llm_base_url: str = ""
     provider_keys: dict[str, str] = Field(default_factory=dict)
     max_searches: int = Field(default=8, ge=1, le=8)
     max_captures: int = Field(default=10, ge=1, le=10)
@@ -36,6 +37,8 @@ def load_settings(path: Path = Path("config.yaml")) -> Settings:
         data["database_url"] = data["database_url"].replace("postgresql://", "postgresql+psycopg://", 1)
     if "MODEL" in os.environ:
         data["model"] = os.environ["MODEL"]
+    if "LLM_BASE_URL" in os.environ:
+        data["llm_base_url"] = os.environ["LLM_BASE_URL"]
     if "BRAVE_SEARCH_API_KEY" in os.environ:
         data.setdefault("provider_keys", {})["web"] = os.environ["BRAVE_SEARCH_API_KEY"]
     if "OPENAI_API_KEY" in os.environ:

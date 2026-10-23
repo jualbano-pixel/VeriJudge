@@ -27,16 +27,17 @@ class StubLLM:
 class OpenAILLM:
     """Small structured-output adapter for the existing LLM protocol."""
 
-    def __init__(self, api_key: str, model: str, client=None):
+    def __init__(self, api_key: str, model: str, base_url: str = None, client=None):
         if not api_key:
             raise ValueError("OPENAI_API_KEY is required when MODEL is not stub")
         self.api_key = api_key
+        self.base_url = (base_url or "https://api.openai.com").rstrip("/") + "/v1/responses"
         self.model = model
         self.client = client or httpx.Client(timeout=45, trust_env=True)
 
     def complete(self, system: str, user: str, json_schema: dict) -> dict:
         response = self.client.post(
-            "https://api.openai.com/v1/responses",
+            self.base_url,
             headers={"Authorization": "Bearer " + self.api_key},
             json={
                 "model": self.model,
