@@ -1,7 +1,9 @@
 """One web provider, curated Philippine scope adapter, and JSON replay."""
 import hashlib
 import json
+import logging
 import os
+import re
 from pathlib import Path
 from typing import Protocol
 
@@ -9,6 +11,8 @@ import httpx
 import yaml
 
 from veryjudge.models import SearchResult, SearchScope
+
+logger = logging.getLogger("veryjudge")
 
 
 class ProviderError(Exception):
@@ -90,10 +94,38 @@ class WebSearchProvider:
                                  published_hint=row.get("page_age"), provider=self.name, rank=i+1)
                     for i, row in enumerate(rows[:scope.max_results])]
         except httpx.HTTPStatusError as error:
-            raise ProviderError("search_http_" + str(error.response.status_code),
-                                error.response.status_code == 429 or error.response.status_code >= 500) from error
+            _log_upstream_error(self.name, error)
+            raise ProviderError(
+                "search_http_" + str(error.response.status_code),
+                error.response.status_code == 429 or error.response.status_code >= 500,
+            ) from error
         except (httpx.RequestError, ValueError, KeyError) as error:
             raise ProviderError("search_provider_failure", isinstance(error, httpx.RequestError)) from error
+
+def _log_upstream_error(provider_name, error):
+    """Log a sanitised upstream HTTP error category without secrets or descriptions.
+
+    Reads the upstream JSON error body only for validated ALL_CAPS code strings
+    (Brave returns ``{"errors":[{"code":"INVALID_QUERY",...}]}``).
+    Description fields are never logged.  Non-JSON bodies are ignored.
+    """
+    try:
+        body = error.response.json()
+        errs = body.get("errors", [body]) if isinstance(body, dict) else [body]
+        codes = [
+            e.get("code", "") for e in (errs if isinstance(errs, list) else [errs])
+            if isinstance(e, dict) and re.fullmatch(r"[A-Z][A-Z_]+", str(e.get("code", "")))
+        ]
+        if codes:
+            logger.error(
+                "upstream_search_error provider=%s status=%d code=%s",
+                provider_name, error.response.status_code, codes[0],
+            )
+            return
+    except (ValueError, KeyError, TypeError):
+        pass
+    logger.error("upstream_search_error provider=%s status=%d",
+                 provider_name, error.response.status_code)
 
 
 class CuratedPHProvider:

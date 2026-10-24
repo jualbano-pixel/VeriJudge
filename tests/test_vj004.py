@@ -1,4 +1,5 @@
 import httpx
+import logging
 import pytest
 
 from veryjudge.models import RetrievalStep, SearchResult, SearchScope
@@ -69,3 +70,78 @@ def test_web_adapter_mapping(monkeypatch):
     provider = WebSearchProvider("fake-key", httpx.Client(transport=httpx.MockTransport(handle)))
     rows = provider.search("census", "en", SearchScope(site_restrict=["psa.gov.ph"]))
     assert rows[0].provider == "web" and rows[0].rank == 1
+
+
+
+def test_upstream_422_logs_validated_code(caplog, monkeypatch):
+    """422 with a Brave-style JSON error body logs the validated code, never description."""
+    monkeypatch.delenv("CI", raising=False)
+    caplog.set_level(logging.ERROR, logger="veryjudge")
+
+    def handle(request):
+        return httpx.Response(422, json={
+            "errors": [{"code": "INVALID_QUERY", "description": "some detail"}],
+        })
+
+    provider = WebSearchProvider("fake-key", httpx.Client(transport=httpx.MockTransport(handle)))
+    with pytest.raises(ProviderError, match="search_http_422"):
+        provider.search("q", "en", SearchScope())
+
+    assert "upstream_search_error" in caplog.text
+    assert "provider=web" in caplog.text
+    assert "status=422" in caplog.text
+    assert "code=INVALID_QUERY" in caplog.text
+    assert "some detail" not in caplog.text
+    assert "description" not in caplog.text
+
+
+def test_upstream_422_non_json_logs_status_only(caplog, monkeypatch):
+    """422 with a non-JSON body logs status only, no raw body content."""
+    monkeypatch.delenv("CI", raising=False)
+    caplog.set_level(logging.ERROR, logger="veryjudge")
+
+    def handle(request):
+        return httpx.Response(422, content=b"<html>server error</html>",
+                               headers={"content-type": "text/html"})
+
+    provider = WebSearchProvider("fake-key", httpx.Client(transport=httpx.MockTransport(handle)))
+    with pytest.raises(ProviderError, match="search_http_422"):
+        provider.search("q", "en", SearchScope())
+
+    assert "upstream_search_error" in caplog.text
+    assert "status=422" in caplog.text
+    assert "server error" not in caplog.text
+    assert "<html>" not in caplog.text
+
+
+def test_upstream_422_credential_not_leaked(caplog, monkeypatch):
+    """Upstream error descriptions containing credential-like strings are never logged."""
+    monkeypatch.delenv("CI", raising=False)
+    caplog.set_level(logging.ERROR, logger="veryjudge")
+    secret = "[redacted]"
+
+    # Case 1: description contains a secret — never logged because we skip description
+    def handle1(request):
+        return httpx.Response(422, json={
+            "errors": [{"code": "AUTH_ERROR", "description": f"invalid key: {secret}"}],
+        })
+
+    provider = WebSearchProvider("fake-key", httpx.Client(transport=httpx.MockTransport(handle1)))
+    with pytest.raises(ProviderError, match="search_http_422"):
+        provider.search("q", "en", SearchScope())
+    assert secret not in caplog.text
+    assert "invalid key" not in caplog.text
+
+    # Case 2: code field itself contains a credential-like value — regex rejects it
+    caplog.clear()
+    def handle2(request):
+        return httpx.Response(422, json={
+            "errors": [{"code": f"Bearer {secret}", "description": "bad auth"}],
+        })
+
+    provider2 = WebSearchProvider("fake-key", httpx.Client(transport=httpx.MockTransport(handle2)))
+    with pytest.raises(ProviderError, match="search_http_422"):
+        provider2.search("q", "en", SearchScope())
+    assert secret not in caplog.text
+    assert "code=" not in caplog.text  # rejected by ALL_CAPS regex, falls through to status-only
+    assert "status=422" in caplog.text
